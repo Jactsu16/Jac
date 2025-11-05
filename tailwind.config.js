@@ -1,0 +1,83 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#F2F6FF',
+          100: '#F2F6FF',
+          200: '#B6D0FF',
+          300: '#79B1FF',
+          400: '#3C98FE',
+          500: '#0087FC',
+          600: '#0076C7',
+          700: '#005E91',
+          800: '#00415C',
+          900: '#001D26',
+          DEFAULT: '#0087FC',
+        },
+        accent1: {
+          50: '#FFF2F2',
+          100: '#FFF2F2',
+          200: '#FEC0C0',
+          300: '#F68B8B',
+          400: '#E05353',
+          500: '#C12D2D',
+          600: '#9E2424',
+          700: '#7A1C1C',
+          800: '#561414',
+          900: '#320C0C',
+          DEFAULT: '#C12D2D',
+        },
+        accent2: {
+          50: '#FFFBEA',
+          100: '#FFFBEA',
+          200: '#FFF1B8',
+          300: '#FFE47E',
+          400: '#FAD94D',
+          500: '#F5D547',
+          600: '#C4AA39',
+          700: '#93802B',
+          800: '#62551D',
+          900: '#312B0F',
+          DEFAULT: '#F5D547',
+        },
+        neutral: {
+          50: '#FFFFFF',
+          100: '#FAFBFC',
+          200: '#EAEDF0',
+          300: '#DBDFE3',
+          400: '#B7BEC4',
+          500: '#959DA1',
+          600: '#959DA1',
+          700: '#6E7578',
+          800: '#484D4F',
+          900: '#222626',
+          DEFAULT: '#959DA1',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Playfair Display', 'serif'],
+      },
+      minHeight: {
+        'touch': '44px',
+        'dvh': '100dvh',
+        'screen-safe': 'calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom))',
+      },
+      minWidth: {
+        'touch': '44px',
+      },
+      height: {
+        'dvh': '100dvh',
+        'touch': '44px',
+        'screen-safe': 'calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom))',
+      },
+    },
+  },
+  plugins: [],
+}

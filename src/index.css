@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-100: #F2F6FF;
+  --primary-200: #B6D0FF;
+  --primary-300: #79B1FF;
+  --primary-400: #3C98FE;
+  --primary-500: #0087FC;
+  --primary-600: #0076C7;
+  --primary-700: #005E91;
+  --primary-800: #00415C;
+  --primary-900: #001D26;
+  
+  --accent1-500: #C12D2D;
+  --accent2-500: #F5D547;
+  
+  --neutral-100: #FAFBFC;
+  --neutral-200: #EAEDF0;
+  --neutral-600: #959DA1;
+  --neutral-700: #6E7578;
+  --neutral-800: #484D4F;
+  --neutral-900: #222626;
+  
+  color-scheme: light;
+}
+
+* {
+  font-weight: 333;
+}
+
+body {
+  @apply min-h-screen bg-neutral-50 text-neutral-900 antialiased;
+  font-family: 'Inter', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.font-name {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.font-quote {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
+}

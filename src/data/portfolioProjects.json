@@ -1,0 +1,121 @@
+{
+  "lastUpdated": "2025-11-05T00:00:00.000Z",
+  "projects": [
+    {
+      "id": "estrategia-aurora",
+      "slug": "plan-aurora-2025",
+      "title": "Plan Aurora 2025",
+      "category": "Estrategia",
+      "projectType": "Real",
+      "date": "2025-05-15",
+      "mainImage": "https://pixabay.com/get/g805d6317c9368a9f219726d95f02bc527733579392674b293003e8a0588caa056ce1a4c99f6cdbd38c4489834671e82c557997d17f3e6043f579e7a8f95cc03f_1280.jpg",
+      "summary": "Replanteamiento estratégico para la expansión de Visela en LATAM con enfoque data-driven y adopción progresiva de IA.",
+      "content": {
+        "planteamientoDelProblema": "Visela debía unificar mensajes y operaciones en nuevos mercados latinoamericanos manteniendo la esencia de la marca.",
+        "objetivo": "Diseñar un roadmap de expansión modular que conecte los equipos de marketing, ventas y producto.",
+        "datosYBrief": "Análisis de 12 KPIs, entrevistas con stakeholders regionales y benchmark competitivo de 8 marcas.",
+        "fases": [
+          { "fase": 1, "titulo": "Descubrimiento", "descripcion": "Investigación mixta con entrevistas, social listening y auditoría de presencia digital." },
+          { "fase": 2, "titulo": "Diagnóstico", "descripcion": "Clusterización de audiencias, análisis SWOT y definición de KPIs críticos." },
+          { "fase": 3, "titulo": "Co-creación", "descripcion": "Workshops remotos con equipos globales para validar hipótesis." },
+          { "fase": 4, "titulo": "Implementación", "descripcion": "Roadmap trimestral con owners, budgets y dependencias inter-área." },
+          { "fase": 5, "titulo": "Evaluación", "descripcion": "Definición de tablero de control con indicadores de adopción y sentiment." }
+        ],
+        "evaluacion": "El piloto logró 130% de incremento en alcance orgánico y 35% en tasa de conversión B2B.",
+        "conclusion": "La hoja de ruta permitió escalar campañas sin friccionar procesos ni diluir la experiencia de marca."
+      },
+      "attachments": [
+        {
+          "id": "doc-aurora-brief",
+          "label": "Brief Ejecutivo",
+          "type": "document",
+          "url": "https://pixabay.com/get/g9c603b0946834f68930a003b948a0ba89adbb9a47175b50be461b99d011b59ebd039b3d7d2340ba76b9f98ba192e96bb6ba1a8810d79e42660eda4710065cb44_640.png"
+        }
+      ]
+    },
+    {
+      "id": "diseno-nova",
+      "slug": "identidad-nova",
+      "title": "Identidad Nova",
+      "category": "Diseño",
+      "projectType": "Ficticio",
+      "date": "2024-11-20",
+      "mainImage": "https://pixabay.com/get/ge930f1e9427e461d5e1f1de73e2a1414c3e201aed58daec04bdb98ce9910e19b7405f0f2780e8b47af01f62c09ff156c2102f1956e1a382c3f071fcb6a6530d0_1280.jpg",
+      "summary": "Sistema visual retrofuturista para una fintech de economía circular.",
+      "content": {
+        "brief": "Crear una identidad adaptable a plataformas digitales con narrativa de innovación responsable.",
+        "problema": "La fintech carecía de diferenciadores gráficos que transmitieran confianza y cercanía.",
+        "usoIA": true,
+        "descripcion": "Se empleó IA generativa para prototipar moodboards, mejoras cromáticas y variantes de logotipo.",
+        "conclusionOPresentacion": "La propuesta final incluye guidelines, motion kit y librería UI modular."
+      },
+      "attachments": [
+        {
+          "id": "img-nova-lookbook",
+          "label": "Lookbook",
+          "type": "image",
+          "url": "https://pixabay.com/get/g2e8f84df66255d1d6e09fb3c2d40b0276b5611fd37710f7c78443d952576256bd5ce17a2a62d7e96a90e1d2a4beb2030_1280.jpg"
+        },
+        {
+          "id": "link-prototipo",
+          "label": "Prototipo Interactivo",
+          "type": "link",
+          "url": "https://pixabay.com/get/g63a1e8c96d6a7449090aa73c135856c0063595d9797ca58b2dde88cab35943ff2f5f78689c14b6227053dd4f47a2f6aa3f68e5d702ccf6858fb12130aade442c_1280.png"
+        }
+      ]
+    },
+    {
+      "id": "website-orbita",
+      "slug": "orbita-dashboard",
+      "title": "Órbita Dashboard",
+      "category": "Website",
+      "projectType": "Estudio de Caso",
+      "date": "2025-01-22",
+      "mainImage": "https://pixabay.com/get/g2fdfce5646c636555a316872863fc9ec67211fb13a56521e2babd913a53eb4616156de3eea6d675751299a4626fd39ddfb09f1598888374396f730de479dedc7_1280.jpg",
+      "summary": "Rediseño de dashboard modular con foco en experiencias micro-interactivas y accesibilidad AA.",
+      "content": {
+        "brief": "Unificar widgets de performance y CX en una sola vista responsive.",
+        "objetivo": "Reducir la fricción de análisis y acelerar la toma de decisiones en equipos híbridos.",
+        "arquitectura": "IA generativa para mapear journeys + card sorting cuantitativo.",
+        "stackTecnico": ["React", "TypeScript", "Vite", "Tailwind", "Framer Motion"],
+        "experienciasInteractivo": ["Transiciones contextuales", "Gestos touch-first", "Modo audit trail"],
+        "entregables": ["Design system", "Prototipo navegable", "Documentación de accesibilidad"]
+      },
+      "attachments": [
+        {
+          "id": "video-orbita-demo",
+          "label": "Demo en Video",
+          "type": "video",
+          "url": "https://pixabay.com/get/gd48c7f80246496af3b11904b8e2c88249f79ba58d2ee31183020a07bbb26b725c30d067f5a10b62ecac3e93b97bc4d632775c930ea9ce3516c231d4a709bd104_1280.jpg"
+        }
+      ]
+    },
+    {
+      "id": "varios-pulse",
+      "slug": "pulse-activacion",
+      "title": "Pulse Activación 360°",
+      "category": "Varios",
+      "projectType": "Real",
+      "date": "2023-09-08",
+      "mainImage": "https://pixabay.com/get/g063173ab1d3abc7c9ff3cbe3a631ab5215f7d6899efc11cdedbe62faf6480412a83abf96b2acde8e033f8ae46eb6fc6ed41be38a3ffd15923157fbbfade39538_1280.jpg",
+      "summary": "Activación inmersiva con realidad mixta para lanzar la línea Pulse Experience.",
+      "content": {
+        "categoria": "Experiencial",
+        "descripcion": "Pabellón itinerante con mapping, cápsulas olfativas y cápsulas de feedback inteligente.",
+        "highlights": [
+          "Coordinación de 7 sedes en 3 países",
+          "Integración con CRM para captación en tiempo real",
+          "Kits de prensa digitales con métricas en vivo"
+        ]
+      },
+      "attachments": [
+        {
+          "id": "gallery-pulse",
+          "label": "Galería",
+          "type": "image",
+          "url": "https://pixabay.com/get/g149848cb7b3ca3db9d734b044fe186869756ceccf38ee2e2cb228a3b3d77665c1d4f752ae0953e9d38762d49a02aea8d4a0c9cdd3768fc56b844a844172bff96_1280.jpg"
+        }
+      ]
+    }
+  ]
+}
